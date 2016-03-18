@@ -36,7 +36,7 @@ function Bus() {
         }
 
         if (name.search(/\./) === -1) {
-            throw Error('missing function inside param (name)');
+            throw Error('no function specified');
         }
 
         let names = name.split('.')

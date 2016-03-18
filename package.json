@@ -12,13 +12,16 @@
     "url": "https://github.com/zewish/eventemitter-bus/issues"
   },
   "scripts": {
-    "test": "./node_modules/.bin/eslint ./*.js && ./node_modules/.bin/mocha ./test/*.test.js && ./node_modules/.bin/istanbul cover bus.js"
+    "test": "./node_modules/.bin/eslint ./*.js && ./node_modules/.bin/gulp test"
   },
   "author": "Iskren Slavov <iskren.s@gmail.com>",
   "license": "BSD-2-Clause",
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^2.4.0",
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.2.0",
     "istanbul": "^0.4.2",
     "mocha": "^2.4.5",
     "sinon": "^1.17.3"

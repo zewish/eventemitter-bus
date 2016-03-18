@@ -82,6 +82,12 @@ describe('bus.js', () => {
             }).to.throw(Error, 'missing param (name)');
         });
 
+        it('should throw an error if no such function specified', () => {
+            expect(() => {
+                bus.run('yada');
+            }).to.throw(Error, 'no function specified');
+        });
+
         it('should throw an error if no such function found', () => {
             expect(() => {
                 bus.run('yada.bada');

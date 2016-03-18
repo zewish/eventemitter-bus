@@ -6,5 +6,5 @@ branches:
         - "master"
 before_script:
     - npm install
-    - npm install istanbul-coveralls
+    - npm install -g gulp istanbul-coveralls
 script: npm test && istanbul-coveralls
