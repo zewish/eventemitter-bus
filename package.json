@@ -12,7 +12,7 @@
     "url": "https://github.com/zewish/eventemitter-bus/issues"
   },
   "scripts": {
-    "test": "./node_modules/.bin/eslint ./*.js && ./node_modules/.bin/mocha ./test/*.test.js && istanbul report"
+    "test": "./node_modules/.bin/eslint ./*.js && ./node_modules/.bin/mocha ./test/*.test.js && ./node_modules/.bin/istanbul report"
   },
   "author": "Iskren Slavov <iskren.s@gmail.com>",
   "license": "BSD-2-Clause",
