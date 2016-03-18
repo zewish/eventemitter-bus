@@ -1,10 +1,8 @@
-eventemitter-bus
-----------------
-A simple node.js Enterprise Software Bus (ESB) implementation using EventEmitter.
-
 [![NPM version](https://img.shields.io/npm/v/eventemitter-bus.svg?style=flat-square)](https://www.npmjs.com/package/eventemitter-bus)
 [![Build Status](https://travis-ci.org/zewish/eventemitter-bus.svg?branch=master)](https://travis-ci.org/zewish/eventemitter-bus)
 [![Coverage Status](https://coveralls.io/repos/zewish/eventemitter-bus/badge.svg?branch=master)](https://coveralls.io/github/zewish/eventemitter-bus?branch=master)
+
+A simple node.js Enterprise Software Bus (ESB) implementation using EventEmitter.
 
 <strong>[See some examples](https://github.com/zewish/eventemitter-bus/tree/master/examples)</strong>
 
