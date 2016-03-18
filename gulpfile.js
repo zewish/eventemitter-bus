@@ -16,6 +16,7 @@ gulp.task('test', ['pretest'], () => {
     .pipe(istanbul.writeReports({
         reporters: [
             'html'
+            , 'lcov'
             , 'text'
         ]
     }));
